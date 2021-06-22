@@ -1,0 +1,369 @@
+graph (neighbour matrix): [[0, 1, 0, 0, 0], [0, 0, 1, 0, 0], [0, 0, 0, 1, 1], [0, 0, 0, 0, 0], [1, 0, 0, 0, 0]]
+
+---------------------- Processes info ----------------------
+Process with id: 1 | public key: 93 | private key: 93 | is blocked: False | required processes: [2]
+Process with id: 2 | public key: 86 | private key: 86 | is blocked: False | required processes: [3]
+Process with id: 3 | public key: 39 | private key: 39 | is blocked: False | required processes: [4, 5]
+Process with id: 4 | public key: 73 | private key: 73 | is blocked: False | required processes: []
+Process with id: 5 | public key: 99 | private key: 99 | is blocked: False | required processes: [1]
+---------------------- End info ----------------------
+
+Block phase: process 1 is blocking by process 2 | block rule value: 94 
+---------------------- Processes info ----------------------
+Process with id: 1 | public key: 94 | private key: 94 | is blocked: True | required processes: [2]
+Process with id: 2 | public key: 86 | private key: 86 | is blocked: False | required processes: [3]
+Process with id: 3 | public key: 39 | private key: 39 | is blocked: False | required processes: [4, 5]
+Process with id: 4 | public key: 73 | private key: 73 | is blocked: False | required processes: []
+Process with id: 5 | public key: 99 | private key: 99 | is blocked: False | required processes: [1]
+---------------------- End info ----------------------
+
+Transmit phase: process 1 with process 2
+
+---------------------- Processes info ----------------------
+Process with id: 1 | public key: 94 | private key: 94 | is blocked: True | required processes: [2]
+Process with id: 2 | public key: 86 | private key: 86 | is blocked: False | required processes: [3]
+Process with id: 3 | public key: 39 | private key: 39 | is blocked: False | required processes: [4, 5]
+Process with id: 4 | public key: 73 | private key: 73 | is blocked: False | required processes: []
+Process with id: 5 | public key: 99 | private key: 99 | is blocked: False | required processes: [1]
+---------------------- End info ----------------------
+
+Transmit phase: process 1 with process 2
+
+---------------------- Processes info ----------------------
+Process with id: 1 | public key: 94 | private key: 94 | is blocked: True | required processes: [2]
+Process with id: 2 | public key: 86 | private key: 86 | is blocked: False | required processes: [3]
+Process with id: 3 | public key: 39 | private key: 39 | is blocked: False | required processes: [4, 5]
+Process with id: 4 | public key: 73 | private key: 73 | is blocked: False | required processes: []
+Process with id: 5 | public key: 99 | private key: 99 | is blocked: False | required processes: [1]
+---------------------- End info ----------------------
+
+Transmit phase: process 1 with process 2
+
+---------------------- Processes info ----------------------
+Process with id: 1 | public key: 94 | private key: 94 | is blocked: True | required processes: [2]
+Process with id: 2 | public key: 86 | private key: 86 | is blocked: False | required processes: [3]
+Process with id: 3 | public key: 39 | private key: 39 | is blocked: False | required processes: [4, 5]
+Process with id: 4 | public key: 73 | private key: 73 | is blocked: False | required processes: []
+Process with id: 5 | public key: 99 | private key: 99 | is blocked: False | required processes: [1]
+---------------------- End info ----------------------
+
+Transmit phase: process 1 with process 2
+
+---------------------- Processes info ----------------------
+Process with id: 1 | public key: 94 | private key: 94 | is blocked: True | required processes: [2]
+Process with id: 2 | public key: 86 | private key: 86 | is blocked: False | required processes: [3]
+Process with id: 3 | public key: 39 | private key: 39 | is blocked: False | required processes: [4, 5]
+Process with id: 4 | public key: 73 | private key: 73 | is blocked: False | required processes: []
+Process with id: 5 | public key: 99 | private key: 99 | is blocked: False | required processes: [1]
+---------------------- End info ----------------------
+
+Transmit phase: process 1 with process 2
+
+---------------------- Processes info ----------------------
+Process with id: 1 | public key: 94 | private key: 94 | is blocked: True | required processes: [2]
+Process with id: 2 | public key: 86 | private key: 86 | is blocked: False | required processes: [3]
+Process with id: 3 | public key: 39 | private key: 39 | is blocked: False | required processes: [4, 5]
+Process with id: 4 | public key: 73 | private key: 73 | is blocked: False | required processes: []
+Process with id: 5 | public key: 99 | private key: 99 | is blocked: False | required processes: [1]
+---------------------- End info ----------------------
+
+Transmit phase: process 1 with process 2
+
+---------------------- Processes info ----------------------
+Process with id: 1 | public key: 94 | private key: 94 | is blocked: True | required processes: [2]
+Process with id: 2 | public key: 86 | private key: 86 | is blocked: False | required processes: [3]
+Process with id: 3 | public key: 39 | private key: 39 | is blocked: False | required processes: [4, 5]
+Process with id: 4 | public key: 73 | private key: 73 | is blocked: False | required processes: []
+Process with id: 5 | public key: 99 | private key: 99 | is blocked: False | required processes: [1]
+---------------------- End info ----------------------
+
+Transmit phase: process 1 with process 2
+
+---------------------- Processes info ----------------------
+Process with id: 1 | public key: 94 | private key: 94 | is blocked: True | required processes: [2]
+Process with id: 2 | public key: 86 | private key: 86 | is blocked: False | required processes: [3]
+Process with id: 3 | public key: 39 | private key: 39 | is blocked: False | required processes: [4, 5]
+Process with id: 4 | public key: 73 | private key: 73 | is blocked: False | required processes: []
+Process with id: 5 | public key: 99 | private key: 99 | is blocked: False | required processes: [1]
+---------------------- End info ----------------------
+
+Transmit phase: process 1 with process 2
+
+---------------------- Processes info ----------------------
+Process with id: 1 | public key: 94 | private key: 94 | is blocked: True | required processes: [2]
+Process with id: 2 | public key: 86 | private key: 86 | is blocked: False | required processes: [3]
+Process with id: 3 | public key: 39 | private key: 39 | is blocked: False | required processes: [4, 5]
+Process with id: 4 | public key: 73 | private key: 73 | is blocked: False | required processes: []
+Process with id: 5 | public key: 99 | private key: 99 | is blocked: False | required processes: [1]
+---------------------- End info ----------------------
+
+Transmit phase: process 1 with process 2
+
+---------------------- Processes info ----------------------
+Process with id: 1 | public key: 94 | private key: 94 | is blocked: True | required processes: [2]
+Process with id: 2 | public key: 86 | private key: 86 | is blocked: False | required processes: [3]
+Process with id: 3 | public key: 39 | private key: 39 | is blocked: False | required processes: [4, 5]
+Process with id: 4 | public key: 73 | private key: 73 | is blocked: False | required processes: []
+Process with id: 5 | public key: 99 | private key: 99 | is blocked: False | required processes: [1]
+---------------------- End info ----------------------
+
+Transmit phase: process 1 with process 2
+
+---------------------- Processes info ----------------------
+Process with id: 1 | public key: 94 | private key: 94 | is blocked: True | required processes: [2]
+Process with id: 2 | public key: 86 | private key: 86 | is blocked: False | required processes: [3]
+Process with id: 3 | public key: 39 | private key: 39 | is blocked: False | required processes: [4, 5]
+Process with id: 4 | public key: 73 | private key: 73 | is blocked: False | required processes: []
+Process with id: 5 | public key: 99 | private key: 99 | is blocked: False | required processes: [1]
+---------------------- End info ----------------------
+
+Transmit phase: process 1 with process 2
+
+---------------------- Processes info ----------------------
+Process with id: 1 | public key: 94 | private key: 94 | is blocked: True | required processes: [2]
+Process with id: 2 | public key: 86 | private key: 86 | is blocked: False | required processes: [3]
+Process with id: 3 | public key: 39 | private key: 39 | is blocked: False | required processes: [4, 5]
+Process with id: 4 | public key: 73 | private key: 73 | is blocked: False | required processes: []
+Process with id: 5 | public key: 99 | private key: 99 | is blocked: False | required processes: [1]
+---------------------- End info ----------------------
+
+Transmit phase: process 1 with process 2
+
+---------------------- Processes info ----------------------
+Process with id: 1 | public key: 94 | private key: 94 | is blocked: True | required processes: [2]
+Process with id: 2 | public key: 86 | private key: 86 | is blocked: False | required processes: [3]
+Process with id: 3 | public key: 39 | private key: 39 | is blocked: False | required processes: [4, 5]
+Process with id: 4 | public key: 73 | private key: 73 | is blocked: False | required processes: []
+Process with id: 5 | public key: 99 | private key: 99 | is blocked: False | required processes: [1]
+---------------------- End info ----------------------
+
+Block phase: process 2 is blocking by process 3 | block rule value: 87 
+---------------------- Processes info ----------------------
+Process with id: 1 | public key: 94 | private key: 94 | is blocked: True | required processes: [2]
+Process with id: 2 | public key: 87 | private key: 87 | is blocked: True | required processes: [3]
+Process with id: 3 | public key: 39 | private key: 39 | is blocked: False | required processes: [4, 5]
+Process with id: 4 | public key: 73 | private key: 73 | is blocked: False | required processes: []
+Process with id: 5 | public key: 99 | private key: 99 | is blocked: False | required processes: [1]
+---------------------- End info ----------------------
+
+Transmit phase: process 2 with process 3
+
+---------------------- Processes info ----------------------
+Process with id: 1 | public key: 94 | private key: 94 | is blocked: True | required processes: [2]
+Process with id: 2 | public key: 87 | private key: 87 | is blocked: True | required processes: [3]
+Process with id: 3 | public key: 74 | private key: 74 | is blocked: True | required processes: [4, 5]
+Process with id: 4 | public key: 73 | private key: 73 | is blocked: False | required processes: []
+Process with id: 5 | public key: 99 | private key: 99 | is blocked: False | required processes: [1]
+---------------------- End info ----------------------
+
+Transmit phase: process 2 with process 3
+
+---------------------- Processes info ----------------------
+Process with id: 1 | public key: 94 | private key: 94 | is blocked: True | required processes: [2]
+Process with id: 2 | public key: 87 | private key: 87 | is blocked: True | required processes: [3]
+Process with id: 3 | public key: 74 | private key: 74 | is blocked: True | required processes: [4, 5]
+Process with id: 4 | public key: 73 | private key: 73 | is blocked: False | required processes: []
+Process with id: 5 | public key: 99 | private key: 99 | is blocked: False | required processes: [1]
+---------------------- End info ----------------------
+
+Transmit phase: process 2 with process 3
+
+---------------------- Processes info ----------------------
+Process with id: 1 | public key: 94 | private key: 94 | is blocked: True | required processes: [2]
+Process with id: 2 | public key: 87 | private key: 87 | is blocked: True | required processes: [3]
+Process with id: 3 | public key: 74 | private key: 74 | is blocked: True | required processes: [4, 5]
+Process with id: 4 | public key: 73 | private key: 73 | is blocked: False | required processes: []
+Process with id: 5 | public key: 99 | private key: 99 | is blocked: False | required processes: [1]
+---------------------- End info ----------------------
+
+Transmit phase: process 2 with process 3
+
+---------------------- Processes info ----------------------
+Process with id: 1 | public key: 94 | private key: 94 | is blocked: True | required processes: [2]
+Process with id: 2 | public key: 87 | private key: 87 | is blocked: True | required processes: [3]
+Process with id: 3 | public key: 74 | private key: 74 | is blocked: True | required processes: [4, 5]
+Process with id: 4 | public key: 73 | private key: 73 | is blocked: False | required processes: []
+Process with id: 5 | public key: 99 | private key: 99 | is blocked: False | required processes: [1]
+---------------------- End info ----------------------
+
+Transmit phase: process 2 with process 3
+
+---------------------- Processes info ----------------------
+Process with id: 1 | public key: 94 | private key: 94 | is blocked: True | required processes: [2]
+Process with id: 2 | public key: 87 | private key: 87 | is blocked: True | required processes: [3]
+Process with id: 3 | public key: 74 | private key: 74 | is blocked: True | required processes: [4, 5]
+Process with id: 4 | public key: 73 | private key: 73 | is blocked: False | required processes: []
+Process with id: 5 | public key: 99 | private key: 99 | is blocked: False | required processes: [1]
+---------------------- End info ----------------------
+
+Transmit phase: process 2 with process 3
+
+---------------------- Processes info ----------------------
+Process with id: 1 | public key: 94 | private key: 94 | is blocked: True | required processes: [2]
+Process with id: 2 | public key: 87 | private key: 87 | is blocked: True | required processes: [3]
+Process with id: 3 | public key: 74 | private key: 74 | is blocked: True | required processes: [4, 5]
+Process with id: 4 | public key: 73 | private key: 73 | is blocked: False | required processes: []
+Process with id: 5 | public key: 99 | private key: 99 | is blocked: False | required processes: [1]
+---------------------- End info ----------------------
+
+Block phase: process 3 is blocking by process 4 | block rule value: 74 
+---------------------- Processes info ----------------------
+Process with id: 1 | public key: 94 | private key: 94 | is blocked: True | required processes: [2]
+Process with id: 2 | public key: 87 | private key: 87 | is blocked: True | required processes: [3]
+Process with id: 3 | public key: 74 | private key: 74 | is blocked: True | required processes: [4, 5]
+Process with id: 4 | public key: 73 | private key: 73 | is blocked: False | required processes: []
+Process with id: 5 | public key: 99 | private key: 99 | is blocked: False | required processes: [1]
+---------------------- End info ----------------------
+
+Transmit phase: process 1 with process 2
+Transmit phase: process 2 with process 3
+Block phase: process 3 is blocking by process 5 | block rule value: 100 
+---------------------- Processes info ----------------------
+Process with id: 1 | public key: 94 | private key: 94 | is blocked: True | required processes: [2]
+Process with id: 2 | public key: 87 | private key: 87 | is blocked: True | required processes: [3]
+Process with id: 3 | public key: 100 | private key: 100 | is blocked: True | required processes: [4, 5]
+Process with id: 4 | public key: 73 | private key: 73 | is blocked: False | required processes: []
+Process with id: 5 | public key: 99 | private key: 99 | is blocked: False | required processes: [1]
+---------------------- End info ----------------------
+
+
+---------------------- Processes info ----------------------
+Process with id: 1 | public key: 94 | private key: 94 | is blocked: True | required processes: [2]
+Process with id: 2 | public key: 87 | private key: 87 | is blocked: True | required processes: [3]
+Process with id: 3 | public key: 100 | private key: 100 | is blocked: True | required processes: [4, 5]
+Process with id: 4 | public key: 73 | private key: 73 | is blocked: False | required processes: []
+Process with id: 5 | public key: 100 | private key: 100 | is blocked: True | required processes: [1]
+---------------------- End info ----------------------
+
+Block phase: process 5 is blocking by process 1 | block rule value: 100 
+---------------------- Processes info ----------------------
+Process with id: 1 | public key: 94 | private key: 94 | is blocked: True | required processes: [2]
+Process with id: 2 | public key: 87 | private key: 87 | is blocked: True | required processes: [3]
+Process with id: 3 | public key: 100 | private key: 100 | is blocked: True | required processes: [4, 5]
+Process with id: 4 | public key: 73 | private key: 73 | is blocked: False | required processes: []
+Process with id: 5 | public key: 100 | private key: 100 | is blocked: True | required processes: [1]
+---------------------- End info ----------------------
+
+
+---------------------- Processes info ----------------------
+Process with id: 1 | public key: 94 | private key: 94 | is blocked: True | required processes: [2]
+Process with id: 2 | public key: 87 | private key: 87 | is blocked: True | required processes: [3]
+Process with id: 3 | public key: 100 | private key: 100 | is blocked: True | required processes: [4, 5]
+Process with id: 4 | public key: 73 | private key: 73 | is blocked: False | required processes: []
+Process with id: 5 | public key: 100 | private key: 100 | is blocked: True | required processes: [1]
+---------------------- End info ----------------------
+
+Transmit phase: process 2 with process 3
+Transmit rule has been applied for process 2
+
+---------------------- Processes info ----------------------
+Process with id: 1 | public key: 94 | private key: 94 | is blocked: True | required processes: [2]
+Process with id: 2 | public key: 100 | private key: 87 | is blocked: True | required processes: [3]
+Process with id: 3 | public key: 100 | private key: 100 | is blocked: True | required processes: [4, 5]
+Process with id: 4 | public key: 73 | private key: 73 | is blocked: False | required processes: []
+Process with id: 5 | public key: 100 | private key: 100 | is blocked: True | required processes: [1]
+---------------------- End info ----------------------
+
+Transmit phase: process 2 with process 3
+
+---------------------- Processes info ----------------------
+Process with id: 1 | public key: 94 | private key: 94 | is blocked: True | required processes: [2]
+Process with id: 2 | public key: 100 | private key: 87 | is blocked: True | required processes: [3]
+Process with id: 3 | public key: 100 | private key: 100 | is blocked: True | required processes: [4, 5]
+Process with id: 4 | public key: 73 | private key: 73 | is blocked: False | required processes: []
+Process with id: 5 | public key: 100 | private key: 100 | is blocked: True | required processes: [1]
+---------------------- End info ----------------------
+
+Transmit phase: process 2 with process 3
+
+---------------------- Processes info ----------------------
+Process with id: 1 | public key: 94 | private key: 94 | is blocked: True | required processes: [2]
+Process with id: 2 | public key: 100 | private key: 87 | is blocked: True | required processes: [3]
+Process with id: 3 | public key: 100 | private key: 100 | is blocked: True | required processes: [4, 5]
+Process with id: 4 | public key: 73 | private key: 73 | is blocked: False | required processes: []
+Process with id: 5 | public key: 100 | private key: 100 | is blocked: True | required processes: [1]
+---------------------- End info ----------------------
+
+Transmit phase: process 2 with process 3
+
+---------------------- Processes info ----------------------
+Process with id: 1 | public key: 94 | private key: 94 | is blocked: True | required processes: [2]
+Process with id: 2 | public key: 100 | private key: 87 | is blocked: True | required processes: [3]
+Process with id: 3 | public key: 100 | private key: 100 | is blocked: True | required processes: [4, 5]
+Process with id: 4 | public key: 73 | private key: 73 | is blocked: False | required processes: []
+Process with id: 5 | public key: 100 | private key: 100 | is blocked: True | required processes: [1]
+---------------------- End info ----------------------
+
+Transmit phase: process 2 with process 3
+
+---------------------- Processes info ----------------------
+Process with id: 1 | public key: 94 | private key: 94 | is blocked: True | required processes: [2]
+Process with id: 2 | public key: 100 | private key: 87 | is blocked: True | required processes: [3]
+Process with id: 3 | public key: 100 | private key: 100 | is blocked: True | required processes: [4, 5]
+Process with id: 4 | public key: 73 | private key: 73 | is blocked: False | required processes: []
+Process with id: 5 | public key: 100 | private key: 100 | is blocked: True | required processes: [1]
+---------------------- End info ----------------------
+
+Transmit phase: process 2 with process 3
+
+---------------------- Processes info ----------------------
+Process with id: 1 | public key: 94 | private key: 94 | is blocked: True | required processes: [2]
+Process with id: 2 | public key: 100 | private key: 87 | is blocked: True | required processes: [3]
+Process with id: 3 | public key: 100 | private key: 100 | is blocked: True | required processes: [4, 5]
+Process with id: 4 | public key: 73 | private key: 73 | is blocked: False | required processes: []
+Process with id: 5 | public key: 100 | private key: 100 | is blocked: True | required processes: [1]
+---------------------- End info ----------------------
+
+Transmit phase: process 2 with process 3
+Transmit phase: process 3 with process 4
+
+---------------------- Processes info ----------------------
+Process with id: 1 | public key: 94 | private key: 94 | is blocked: True | required processes: [2]
+Process with id: 2 | public key: 100 | private key: 87 | is blocked: True | required processes: [3]
+Process with id: 3 | public key: 100 | private key: 100 | is blocked: True | required processes: [4, 5]
+Process with id: 4 | public key: 73 | private key: 73 | is blocked: False | required processes: []
+Process with id: 5 | public key: 100 | private key: 100 | is blocked: True | required processes: [1]
+---------------------- End info ----------------------
+
+Transmit phase: process 3 with process 5
+
+---------------------- Processes info ----------------------
+Process with id: 1 | public key: 94 | private key: 94 | is blocked: True | required processes: [2]
+Process with id: 2 | public key: 100 | private key: 87 | is blocked: True | required processes: [3]
+Process with id: 3 | public key: 100 | private key: 100 | is blocked: True | required processes: [4, 5]
+Process with id: 4 | public key: 73 | private key: 73 | is blocked: False | required processes: []
+Process with id: 5 | public key: 100 | private key: 100 | is blocked: True | required processes: [1]
+---------------------- End info ----------------------
+
+DEADLOCK is detected with processes:
+ Process with id: 3 | public key: 100 | private key: 100 | is blocked: True | required processes: [4, 5] 
+ Process with id: 5 | public key: 100 | private key: 100 | is blocked: True | required processes: [1]
+Transmit phase: process 1 with process 2
+
+---------------------- Processes info ----------------------
+Process with id: 1 | public key: 94 | private key: 94 | is blocked: True | required processes: [2]
+Process with id: 2 | public key: 100 | private key: 87 | is blocked: True | required processes: [3]
+Process with id: 3 | public key: 100 | private key: 100 | is blocked: True | required processes: [4, 5]
+Process with id: 4 | public key: 73 | private key: 73 | is blocked: False | required processes: []
+Process with id: 5 | public key: 100 | private key: 100 | is blocked: True | required processes: [1]
+---------------------- End info ----------------------
+
+Transmit phase: process 5 with process 1
+
+---------------------- Processes info ----------------------
+Process with id: 1 | public key: 94 | private key: 94 | is blocked: True | required processes: [2]
+Process with id: 2 | public key: 100 | private key: 87 | is blocked: True | required processes: [3]
+Process with id: 3 | public key: 100 | private key: 100 | is blocked: True | required processes: [4, 5]
+Process with id: 4 | public key: 73 | private key: 73 | is blocked: False | required processes: []
+Process with id: 5 | public key: 100 | private key: 100 | is blocked: True | required processes: [1]
+---------------------- End info ----------------------
+
+
+---------------------- Processes info ----------------------
+Process with id: 1 | public key: 94 | private key: 94 | is blocked: True | required processes: [2]
+Process with id: 2 | public key: 100 | private key: 87 | is blocked: True | required processes: [3]
+Process with id: 3 | public key: 100 | private key: 100 | is blocked: True | required processes: [4, 5]
+Process with id: 4 | public key: 73 | private key: 73 | is blocked: False | required processes: []
+Process with id: 5 | public key: 100 | private key: 100 | is blocked: True | required processes: [1]
+---------------------- End info ----------------------
+

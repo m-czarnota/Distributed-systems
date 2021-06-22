@@ -1,0 +1,235 @@
+graph (neighbour matrix): [[0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 2], [1, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 1, 0, 0, 0, 3], [0, 1, 0, 0, 0, 0, 0, 1], [0, 0, 0, 0, 0, 1, 0, 0]]
+
+Node with id 1 has just enter to CS. The time operation in CS: 2.0 sec
+------------------- struct info -------------------
+Node with id:1 | id parent node:None | local queue:[] | has token:True | is in CS:False
+Node with id:2 | id parent node:1 | local queue:[] | has token:False | is in CS:False
+Node with id:3 | id parent node:2 | local queue:[] | has token:False | is in CS:False
+Node with id:4 | id parent node:1 | local queue:[] | has token:False | is in CS:False
+Node with id:5 | id parent node:4 | local queue:[] | has token:False | is in CS:False
+Node with id:6 | id parent node:2 | local queue:[] | has token:False | is in CS:False
+Node with id:7 | id parent node:6 | local queue:[] | has token:False | is in CS:False
+------------------- end -------------------
+Node with id 2 has received a request from his child node with id 6
+------------------- struct info -------------------
+Node with id:1 | id parent node:None | local queue:[] | has token:True | is in CS:True
+Node with id:2 | id parent node:1 | local queue:[6] | has token:False | is in CS:False
+Node with id:3 | id parent node:2 | local queue:[] | has token:False | is in CS:False
+Node with id:4 | id parent node:1 | local queue:[] | has token:False | is in CS:False
+Node with id:5 | id parent node:4 | local queue:[] | has token:False | is in CS:False
+Node with id:6 | id parent node:2 | local queue:[] | has token:False | is in CS:False
+Node with id:7 | id parent node:6 | local queue:[] | has token:False | is in CS:False
+------------------- end -------------------
+Node with id 1 has received a request from his child node with id 2
+------------------- struct info -------------------
+Node with id:1 | id parent node:None | local queue:[2] | has token:True | is in CS:True
+Node with id:2 | id parent node:1 | local queue:[6] | has token:False | is in CS:False
+Node with id:3 | id parent node:2 | local queue:[] | has token:False | is in CS:False
+Node with id:4 | id parent node:1 | local queue:[] | has token:False | is in CS:False
+Node with id:5 | id parent node:4 | local queue:[] | has token:False | is in CS:False
+Node with id:6 | id parent node:2 | local queue:[] | has token:False | is in CS:False
+Node with id:7 | id parent node:6 | local queue:[] | has token:False | is in CS:False
+------------------- end -------------------
+Node with id 2 has received a request from his child node with id 3
+------------------- struct info -------------------
+Node with id:1 | id parent node:None | local queue:[2] | has token:True | is in CS:True
+Node with id:2 | id parent node:1 | local queue:[6, 3] | has token:False | is in CS:False
+Node with id:3 | id parent node:2 | local queue:[] | has token:False | is in CS:False
+Node with id:4 | id parent node:1 | local queue:[] | has token:False | is in CS:False
+Node with id:5 | id parent node:4 | local queue:[] | has token:False | is in CS:False
+Node with id:6 | id parent node:2 | local queue:[] | has token:False | is in CS:False
+Node with id:7 | id parent node:6 | local queue:[] | has token:False | is in CS:False
+------------------- end -------------------
+Node with id 4 has received a request from his child node with id 5
+------------------- struct info -------------------
+Node with id:1 | id parent node:None | local queue:[2] | has token:True | is in CS:True
+Node with id:2 | id parent node:1 | local queue:[6, 3] | has token:False | is in CS:False
+Node with id:3 | id parent node:2 | local queue:[] | has token:False | is in CS:False
+Node with id:4 | id parent node:1 | local queue:[5] | has token:False | is in CS:False
+Node with id:5 | id parent node:4 | local queue:[] | has token:False | is in CS:False
+Node with id:6 | id parent node:2 | local queue:[] | has token:False | is in CS:False
+Node with id:7 | id parent node:6 | local queue:[] | has token:False | is in CS:False
+------------------- end -------------------
+Node with id 1 has received a request from his child node with id 4
+------------------- struct info -------------------
+Node with id:1 | id parent node:None | local queue:[2, 4] | has token:True | is in CS:True
+Node with id:2 | id parent node:1 | local queue:[6, 3] | has token:False | is in CS:False
+Node with id:3 | id parent node:2 | local queue:[] | has token:False | is in CS:False
+Node with id:4 | id parent node:1 | local queue:[5] | has token:False | is in CS:False
+Node with id:5 | id parent node:4 | local queue:[] | has token:False | is in CS:False
+Node with id:6 | id parent node:2 | local queue:[] | has token:False | is in CS:False
+Node with id:7 | id parent node:6 | local queue:[] | has token:False | is in CS:False
+------------------- end -------------------
+Node with id 1 has just left CS. His local queue: [2, 4]
+------------------- struct info -------------------
+Node with id:1 | id parent node:None | local queue:[2, 4] | has token:True | is in CS:True
+Node with id:2 | id parent node:1 | local queue:[6, 3] | has token:False | is in CS:False
+Node with id:3 | id parent node:2 | local queue:[] | has token:False | is in CS:False
+Node with id:4 | id parent node:1 | local queue:[5] | has token:False | is in CS:False
+Node with id:5 | id parent node:4 | local queue:[] | has token:False | is in CS:False
+Node with id:6 | id parent node:2 | local queue:[] | has token:False | is in CS:False
+Node with id:7 | id parent node:6 | local queue:[] | has token:False | is in CS:False
+------------------- end -------------------
+Node with id 1 has given the token to his a child node with id 2 . Preview for local queue's node with id 2 [6, 3]
+------------------- struct info -------------------
+Node with id:1 | id parent node:None | local queue:[4] | has token:False | is in CS:True
+Node with id:2 | id parent node:1 | local queue:[6, 3] | has token:True | is in CS:False
+Node with id:3 | id parent node:2 | local queue:[] | has token:False | is in CS:False
+Node with id:4 | id parent node:1 | local queue:[5] | has token:False | is in CS:False
+Node with id:5 | id parent node:4 | local queue:[] | has token:False | is in CS:False
+Node with id:6 | id parent node:2 | local queue:[] | has token:False | is in CS:False
+Node with id:7 | id parent node:6 | local queue:[] | has token:False | is in CS:False
+------------------- end -------------------
+Node with id 2 has given the token to his a child node with id 6 . Preview for local queue's node with id 6 []
+------------------- struct info -------------------
+Node with id:1 | id parent node:None | local queue:[4] | has token:False | is in CS:True
+Node with id:2 | id parent node:1 | local queue:[3] | has token:False | is in CS:False
+Node with id:3 | id parent node:2 | local queue:[] | has token:False | is in CS:False
+Node with id:4 | id parent node:1 | local queue:[5] | has token:False | is in CS:False
+Node with id:5 | id parent node:4 | local queue:[] | has token:False | is in CS:False
+Node with id:6 | id parent node:2 | local queue:[] | has token:True | is in CS:False
+Node with id:7 | id parent node:6 | local queue:[] | has token:False | is in CS:False
+------------------- end -------------------
+
+Node with id 6 has just enter to CS. The time operation in CS: 2.0 sec
+------------------- struct info -------------------
+Node with id:1 | id parent node:None | local queue:[4] | has token:False | is in CS:True
+Node with id:2 | id parent node:1 | local queue:[3] | has token:False | is in CS:False
+Node with id:3 | id parent node:2 | local queue:[] | has token:False | is in CS:False
+Node with id:4 | id parent node:1 | local queue:[5] | has token:False | is in CS:False
+Node with id:5 | id parent node:4 | local queue:[] | has token:False | is in CS:False
+Node with id:6 | id parent node:2 | local queue:[] | has token:True | is in CS:False
+Node with id:7 | id parent node:6 | local queue:[] | has token:False | is in CS:False
+------------------- end -------------------
+Node with id 6 has just left CS. His local queue: []
+------------------- struct info -------------------
+Node with id:1 | id parent node:None | local queue:[4] | has token:False | is in CS:True
+Node with id:2 | id parent node:1 | local queue:[3] | has token:False | is in CS:False
+Node with id:3 | id parent node:2 | local queue:[] | has token:False | is in CS:False
+Node with id:4 | id parent node:1 | local queue:[5] | has token:False | is in CS:False
+Node with id:5 | id parent node:4 | local queue:[] | has token:False | is in CS:False
+Node with id:6 | id parent node:2 | local queue:[] | has token:True | is in CS:True
+Node with id:7 | id parent node:6 | local queue:[] | has token:False | is in CS:False
+------------------- end -------------------
+Node with id 6 has returned the token to his a parent node with id 2
+------------------- struct info -------------------
+Node with id:1 | id parent node:None | local queue:[4] | has token:False | is in CS:True
+Node with id:2 | id parent node:1 | local queue:[3] | has token:True | is in CS:False
+Node with id:3 | id parent node:2 | local queue:[] | has token:False | is in CS:False
+Node with id:4 | id parent node:1 | local queue:[5] | has token:False | is in CS:False
+Node with id:5 | id parent node:4 | local queue:[] | has token:False | is in CS:False
+Node with id:6 | id parent node:2 | local queue:[] | has token:False | is in CS:True
+Node with id:7 | id parent node:6 | local queue:[] | has token:False | is in CS:False
+------------------- end -------------------
+Node with id 2 has given the token to his a child node with id 3 . Preview for local queue's node with id 3 []
+------------------- struct info -------------------
+Node with id:1 | id parent node:None | local queue:[4] | has token:False | is in CS:True
+Node with id:2 | id parent node:1 | local queue:[] | has token:False | is in CS:False
+Node with id:3 | id parent node:2 | local queue:[] | has token:True | is in CS:False
+Node with id:4 | id parent node:1 | local queue:[5] | has token:False | is in CS:False
+Node with id:5 | id parent node:4 | local queue:[] | has token:False | is in CS:False
+Node with id:6 | id parent node:2 | local queue:[] | has token:False | is in CS:True
+Node with id:7 | id parent node:6 | local queue:[] | has token:False | is in CS:False
+------------------- end -------------------
+
+Node with id 3 has just enter to CS. The time operation in CS: 2.0 sec
+------------------- struct info -------------------
+Node with id:1 | id parent node:None | local queue:[4] | has token:False | is in CS:True
+Node with id:2 | id parent node:1 | local queue:[] | has token:False | is in CS:False
+Node with id:3 | id parent node:2 | local queue:[] | has token:True | is in CS:False
+Node with id:4 | id parent node:1 | local queue:[5] | has token:False | is in CS:False
+Node with id:5 | id parent node:4 | local queue:[] | has token:False | is in CS:False
+Node with id:6 | id parent node:2 | local queue:[] | has token:False | is in CS:True
+Node with id:7 | id parent node:6 | local queue:[] | has token:False | is in CS:False
+------------------- end -------------------
+Node with id 3 has just left CS. His local queue: []
+------------------- struct info -------------------
+Node with id:1 | id parent node:None | local queue:[4] | has token:False | is in CS:True
+Node with id:2 | id parent node:1 | local queue:[] | has token:False | is in CS:False
+Node with id:3 | id parent node:2 | local queue:[] | has token:True | is in CS:True
+Node with id:4 | id parent node:1 | local queue:[5] | has token:False | is in CS:False
+Node with id:5 | id parent node:4 | local queue:[] | has token:False | is in CS:False
+Node with id:6 | id parent node:2 | local queue:[] | has token:False | is in CS:True
+Node with id:7 | id parent node:6 | local queue:[] | has token:False | is in CS:False
+------------------- end -------------------
+Node with id 3 has returned the token to his a parent node with id 2
+------------------- struct info -------------------
+Node with id:1 | id parent node:None | local queue:[4] | has token:False | is in CS:True
+Node with id:2 | id parent node:1 | local queue:[] | has token:True | is in CS:False
+Node with id:3 | id parent node:2 | local queue:[] | has token:False | is in CS:True
+Node with id:4 | id parent node:1 | local queue:[5] | has token:False | is in CS:False
+Node with id:5 | id parent node:4 | local queue:[] | has token:False | is in CS:False
+Node with id:6 | id parent node:2 | local queue:[] | has token:False | is in CS:True
+Node with id:7 | id parent node:6 | local queue:[] | has token:False | is in CS:False
+------------------- end -------------------
+Node with id 2 has returned the token to his a parent node with id 1
+------------------- struct info -------------------
+Node with id:1 | id parent node:None | local queue:[4] | has token:True | is in CS:True
+Node with id:2 | id parent node:1 | local queue:[] | has token:False | is in CS:False
+Node with id:3 | id parent node:2 | local queue:[] | has token:False | is in CS:True
+Node with id:4 | id parent node:1 | local queue:[5] | has token:False | is in CS:False
+Node with id:5 | id parent node:4 | local queue:[] | has token:False | is in CS:False
+Node with id:6 | id parent node:2 | local queue:[] | has token:False | is in CS:True
+Node with id:7 | id parent node:6 | local queue:[] | has token:False | is in CS:False
+------------------- end -------------------
+Node with id 1 has given the token to his a child node with id 4 . Preview for local queue's node with id 4 [5]
+------------------- struct info -------------------
+Node with id:1 | id parent node:None | local queue:[] | has token:False | is in CS:True
+Node with id:2 | id parent node:1 | local queue:[] | has token:False | is in CS:False
+Node with id:3 | id parent node:2 | local queue:[] | has token:False | is in CS:True
+Node with id:4 | id parent node:1 | local queue:[5] | has token:True | is in CS:False
+Node with id:5 | id parent node:4 | local queue:[] | has token:False | is in CS:False
+Node with id:6 | id parent node:2 | local queue:[] | has token:False | is in CS:True
+Node with id:7 | id parent node:6 | local queue:[] | has token:False | is in CS:False
+------------------- end -------------------
+Node with id 4 has given the token to his a child node with id 5 . Preview for local queue's node with id 5 []
+------------------- struct info -------------------
+Node with id:1 | id parent node:None | local queue:[] | has token:False | is in CS:True
+Node with id:2 | id parent node:1 | local queue:[] | has token:False | is in CS:False
+Node with id:3 | id parent node:2 | local queue:[] | has token:False | is in CS:True
+Node with id:4 | id parent node:1 | local queue:[] | has token:False | is in CS:False
+Node with id:5 | id parent node:4 | local queue:[] | has token:True | is in CS:False
+Node with id:6 | id parent node:2 | local queue:[] | has token:False | is in CS:True
+Node with id:7 | id parent node:6 | local queue:[] | has token:False | is in CS:False
+------------------- end -------------------
+
+Node with id 5 has just enter to CS. The time operation in CS: 2.0 sec
+------------------- struct info -------------------
+Node with id:1 | id parent node:None | local queue:[] | has token:False | is in CS:True
+Node with id:2 | id parent node:1 | local queue:[] | has token:False | is in CS:False
+Node with id:3 | id parent node:2 | local queue:[] | has token:False | is in CS:True
+Node with id:4 | id parent node:1 | local queue:[] | has token:False | is in CS:False
+Node with id:5 | id parent node:4 | local queue:[] | has token:True | is in CS:False
+Node with id:6 | id parent node:2 | local queue:[] | has token:False | is in CS:True
+Node with id:7 | id parent node:6 | local queue:[] | has token:False | is in CS:False
+------------------- end -------------------
+Node with id 5 has just left CS. His local queue: []
+------------------- struct info -------------------
+Node with id:1 | id parent node:None | local queue:[] | has token:False | is in CS:True
+Node with id:2 | id parent node:1 | local queue:[] | has token:False | is in CS:False
+Node with id:3 | id parent node:2 | local queue:[] | has token:False | is in CS:True
+Node with id:4 | id parent node:1 | local queue:[] | has token:False | is in CS:False
+Node with id:5 | id parent node:4 | local queue:[] | has token:True | is in CS:True
+Node with id:6 | id parent node:2 | local queue:[] | has token:False | is in CS:True
+Node with id:7 | id parent node:6 | local queue:[] | has token:False | is in CS:False
+------------------- end -------------------
+Node with id 5 has returned the token to his a parent node with id 4
+------------------- struct info -------------------
+Node with id:1 | id parent node:None | local queue:[] | has token:False | is in CS:True
+Node with id:2 | id parent node:1 | local queue:[] | has token:False | is in CS:False
+Node with id:3 | id parent node:2 | local queue:[] | has token:False | is in CS:True
+Node with id:4 | id parent node:1 | local queue:[] | has token:True | is in CS:False
+Node with id:5 | id parent node:4 | local queue:[] | has token:False | is in CS:True
+Node with id:6 | id parent node:2 | local queue:[] | has token:False | is in CS:True
+Node with id:7 | id parent node:6 | local queue:[] | has token:False | is in CS:False
+------------------- end -------------------
+Node with id 4 has returned the token to his a parent node with id 1
+------------------- struct info -------------------
+Node with id:1 | id parent node:None | local queue:[] | has token:True | is in CS:True
+Node with id:2 | id parent node:1 | local queue:[] | has token:False | is in CS:False
+Node with id:3 | id parent node:2 | local queue:[] | has token:False | is in CS:True
+Node with id:4 | id parent node:1 | local queue:[] | has token:False | is in CS:False
+Node with id:5 | id parent node:4 | local queue:[] | has token:False | is in CS:True
+Node with id:6 | id parent node:2 | local queue:[] | has token:False | is in CS:True
+Node with id:7 | id parent node:6 | local queue:[] | has token:False | is in CS:False
+------------------- end -------------------
